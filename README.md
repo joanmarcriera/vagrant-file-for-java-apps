@@ -34,7 +34,8 @@ Last login: DATE REDACTED
 
 # How will I test your application?
 
-So, from now onwards I will follow the instructions given in your documentation, if you need any packages that are currently not installed provide the instructions that I would need to follow. 
+So, from now onwards I will follow the instructions given in your documentation, if you need any packages that are currently not installed provide the instructions that I would need to follow.
+If you read inside the Vagrantfile you will see that only maven and java have been installed, so feel free to include a line on your documentation asking for gradle to be installed if necessary. 
 
 
 # UBUNTU?
