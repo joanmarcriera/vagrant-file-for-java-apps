@@ -30,17 +30,16 @@ After `vagrant up` you should be able to `vagrant ssh`
 12:36 $ vagrant ssh
 [vagrant@localhost ~]$ sudo su -
 Last login: DATE REDACTED
+[root@localhost ~]$
 ```
 
-# How will I test your application?
+# How will your application be tested ?
 
-So, from now onwards I will follow the instructions given in your documentation, if you need any packages that are currently not installed provide the instructions that I would need to follow.
+So, from now onwards we will follow the instructions given in your documentation, if you need any packages that are currently not installed provide the instructions that we need to follow.
 
-If you read inside the Vagrantfile you will see that only maven and java have been installed, so feel free to include a line on your documentation asking for gradle to be installed if necessary.
-
-
+If you read inside the Vagrantfile you will see that only maven and java have been installed, that does not mean that you have to use them, but if you use something else you should include a line on your documentation asking for gradle(or any other dependency) to be installed and configured.
 
 
 # UBUNTU?
 
-If you are more used to ubuntu feel free to create a Vagrantfile with Ubuntu and include that file in your repository.
+If you are more used to ubuntu feel free to create a Vagrantfile with Ubuntu and include that file in your repository, or link the repository with the Vagrantfile for us to use. 
