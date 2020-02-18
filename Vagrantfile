@@ -71,5 +71,6 @@ Vagrant.configure("2") do |config|
   #   apt-get install -y apache2
     yum -y install epel-release
     yum -y install java maven git vim testng-javadoc jq
+    yum -y install npm
   SHELL
 end
